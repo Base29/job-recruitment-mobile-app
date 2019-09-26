@@ -8,8 +8,8 @@ import * as actions from '../../../utils/actions';
 
 class Login extends Component {
     state = {
-        username: 'faisalblink3@gmail.com',
-        password: 'password'
+        username: '',
+        password: ''
     };
 
     onPressLogin = async () => {
